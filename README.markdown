@@ -30,8 +30,8 @@ A Telegram bot for school management, allowing students, teachers, and administr
 
 1. **Clone the Repository**:
    ```bash
-   git clone <repository-url>
-   cd school-bot
+   git clone https://github.com/Geewh1z-code/School_bot.git
+   cd school_bot
    ```
 
 2. **Install Dependencies**:
@@ -48,12 +48,12 @@ A Telegram bot for school management, allowing students, teachers, and administr
      ```
 
 4. **Configure the Bot**:
-   - Replace `API_TOKEN` in `alex_bot_new.py` with your Telegram Bot token (obtain from [@BotFather](https://t.me/BotFather)).
+   - Replace `API_TOKEN` in `school_bot_tg.py` with your Telegram Bot token (obtain from [@BotFather](https://t.me/BotFather)).
    - Update MySQL credentials (`MYSQL_USER`, `MYSQL_PASSWORD`, `MYSQL_HOST`, `MYSQL_DATABASE`) in `alex_bot_new.py`.
 
 5. **Run the Bot**:
    ```bash
-   python alex_bot_new.py
+   python school_bot_tg.py
    ```
 
 ## Usage
@@ -90,7 +90,3 @@ See `database_bot.sql` for the full schema and sample data.
 3. Commit changes (`git commit -m 'Add feature'`).
 4. Push to the branch (`git push origin feature-name`).
 5. Open a Pull Request.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
