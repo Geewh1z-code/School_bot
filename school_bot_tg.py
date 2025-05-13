@@ -14,16 +14,16 @@ import logging
 logging.basicConfig(level=logging.INFO)
 
 # Инициализация бота
-API_TOKEN = "7119373986:AAGg8OiAV2jhIPyqNjt9CHHtusMRKSAZtlE"  # Замените на ваш токен
+API_TOKEN = "your_token"  # Замените на ваш токен
 bot = Bot(token=API_TOKEN)
 storage = MemoryStorage()
 dp = Dispatcher(bot=bot, storage=storage)
 
 # Инициализация базы данных (MySQL)
-MYSQL_USER = "root"  # Замените на вашего пользователя MySQL
-MYSQL_PASSWORD = "LOLkek1488"  # Замените на ваш пароль
-MYSQL_HOST = "127.0.0.1"  # Хост MySQL
-MYSQL_DATABASE = "school_bot"  # Имя базы данных
+MYSQL_USER = ""  # Замените на вашего пользователя MySQL
+MYSQL_PASSWORD = ""  # Замените на ваш пароль
+MYSQL_HOST = ""  # Хост MySQL
+MYSQL_DATABASE = ""  # Имя базы данных
 
 # Формируем строку подключения
 engine = sa.create_engine(
